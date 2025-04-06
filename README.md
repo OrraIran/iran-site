@@ -37,7 +37,7 @@
 ## Redes sociais
 
 Siga e entre em contato:
-- [Instagram](https://instagram.com/orra_iran.oficial)
+- [Instagram](https://instagram.com/orra_iran)
 - [WhatsApp](https://wa.me/19983699540)
 
 ---

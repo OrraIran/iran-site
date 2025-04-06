@@ -9,7 +9,7 @@
 
 ## Acesse o site
 
-[![Visite o site](https://img.shields.io/badge/IRΛN-Visite_o_site-4A90E2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://seu-usuario.github.io/iran-site/)
+[![Visite o site](https://img.shields.io/badge/IRΛN-Visite_o_site-4A90E2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://orrairan.github.io/iran-site/)
 
 ---
 

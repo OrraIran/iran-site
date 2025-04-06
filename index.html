@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IRΛN — Estilo sem limites</title>
+  <style>
+    :root {
+      --azul-principal: #4A90E2;
+      --azul-noite: #0D1B2A;
+      --azul-claro: #B3CDE0;
+      --cinza-gelo: #F5F7FA;
+      --branco: #FFFFFF;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background-color: var(--cinza-gelo);
+      color: var(--azul-noite);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--azul-principal);
+      color: var(--branco);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 3px;
+    }
+    nav {
+      background-color: var(--azul-noite);
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: var(--branco);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .banner {
+      background: linear-gradient(var(--azul-claro), var(--azul-principal));
+      color: var(--branco);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .produto {
+      background-color: var(--branco);
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 250px;
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: var(--azul-noite);
+      color: var(--branco);
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IRΛN</h1>
+    <p>Estilo sem limites</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#produtos">Coleção</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <section class="banner" id="home">
+    <h2>Vista quem você é</h2>
+    <p>Liberdade, atitude e estilo em cada peça.</p>
+  </section>
+  <section class="section" id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://via.placeholder.com/250" alt="Produto 1" />
+        <h3>Camisa Urban Fit</h3>
+        <p>R$ 129,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/250" alt="Produto 2" />
+        <h3>Jaqueta Minimal</h3>
+        <p>R$ 249,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/250" alt="Produto 3" />
+        <h3>Calça Vision</h3>
+        <p>R$ 179,90</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="sobre">
+    <h2>Sobre a IRΛN</h2>
+    <p>Inspirada na liberdade e na autenticidade, a IRΛN é mais do que uma marca — é um movimento. Criamos peças que acompanham o seu ritmo, com identidade e propósito. Sem rótulos, sem limites.</p>
+  </section>
+  <section class="section" id="contato">
+    <h2>Contato</h2>
+    <p>Fale com a gente pelo WhatsApp ou Instagram:</p>
+    <p><strong>WhatsApp:</strong> (00) 00000-0000</p>
+    <p><strong>Instagram:</strong> @iran.oficial</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 IRΛN. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
